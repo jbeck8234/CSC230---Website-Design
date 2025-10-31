@@ -85,9 +85,17 @@ nav > ul {
 
 /* List Styles */
 
+article.syllabus ol {
+    list-style-type: upper-roman;
+}
 
+article.syllabus ol ol {
+    list-style-type: upper-alpha;
+}
 
-
+article.syllabus ol ol ol {
+    list-style-type: decimal;
+}
 
 /* Footer Styles */
 
@@ -98,18 +106,6 @@ body >footer address {
     font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 Notice for the Quicksand-Regular Font
