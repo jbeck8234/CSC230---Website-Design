@@ -59,6 +59,8 @@ article#about_tss h2 {
 article.syllabus h1, article.syllabus h2 {
     background-color: rgb(255, 185, 255);
     color: rgb(101, 101, 101);
+}h1, h2 {
+    letter-spacing: 0.1em;
 }
 
 /* Aside and Blockquote Styles */
@@ -77,7 +79,9 @@ nav {
     font-size: 0.8em;
 }
 
-
+nav > ul {
+    line-height: 2em;
+}
 
 /* List Styles */
 
