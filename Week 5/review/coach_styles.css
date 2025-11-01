@@ -35,7 +35,8 @@ body > footer address {
     background-color: rgb(222, 128, 60);
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    font-display: bold, small-caps;
+    font-weight: bold;
+    font-variant: small-caps;
     font-size: 0.9em;
     line-height: 3em;
     font-family: Nobile, Verdana, Geneva, sans-serif;
@@ -73,6 +74,13 @@ aside blockquote {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 10px;
     quotes: open-quote=201C, close-quote=201D;
+}
+
+aside blockquote::before {
+    content: open-quote;
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Navigation Styles */	
