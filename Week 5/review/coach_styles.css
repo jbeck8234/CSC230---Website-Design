@@ -30,6 +30,16 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+body > footer address {
+    background-color: rgb(222, 128, 60);
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-display: bold, small-caps;
+    font-size: 0.9em;
+    line-height: 3em;
+    font-family: Nobile, Verdana, Geneva, sans-serif;
+    text-align: center;
+}
 
 /* Heading Styles */
 
