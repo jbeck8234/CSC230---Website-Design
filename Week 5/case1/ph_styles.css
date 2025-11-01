@@ -59,9 +59,19 @@ p {
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
-}body > p {
+}
+
+body > p {
     font-size: 1.1em;
     text-align: center;
+}
+
+address {
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 0.9em;
 }
 
 /* Navigation Styles */
