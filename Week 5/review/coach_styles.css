@@ -50,6 +50,14 @@ h1 {
     margin: 0px;
 }
 
+section#tss-coaches h1 {
+    font-size: 2.5em;
+    color: hsl(27, 82%, 85%);
+    background-color: hsl(27, 6%, 21%);
+    padding: 10px;
+}
+
+
 /* Blockquote Styles */
 
 
