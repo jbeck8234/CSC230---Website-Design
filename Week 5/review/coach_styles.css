@@ -43,7 +43,12 @@ body > footer address {
 
 /* Heading Styles */
 
-
+h1 {
+    font-weight: normal;
+    font-family: Nobile, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.2em;
+    margin: 0px;
+}
 
 /* Blockquote Styles */
 
