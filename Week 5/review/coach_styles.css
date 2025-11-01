@@ -73,11 +73,17 @@ aside blockquote {
     color: rgb(222, 128, 60);
     background-color: rgba(255, 255, 255, 0.75);
     padding: 10px;
-    quotes: open-quote=201C, close-quote=201D;
 }
 
 aside blockquote::before {
-    content: open-quote;
+    content: "\201C";
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+aside blockquote::after {
+    content: "\201D";
     font-weight: bold;
     font-size: 1.6em;
     font-family: 'Times New Roman', Times, serif;
