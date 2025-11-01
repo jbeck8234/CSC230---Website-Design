@@ -96,6 +96,11 @@ body > nav {
     line-height: 2em;
 }
 
+nav > ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
 /* Paragraph Styles */
 
 
