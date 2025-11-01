@@ -76,7 +76,11 @@ address {
 
 /* Navigation Styles */
 
-
+nav a {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* Section Styles */
 
