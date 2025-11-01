@@ -3,6 +3,7 @@
     font-family: 'Nobile';
     src: url('nobile-webfont.woff') format('woff'),
          url('nobile-webfont.ttf') format('truetype');
+}
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -65,8 +66,14 @@ article.coach_bio h2 {
 
 /* Blockquote Styles */
 
-
-
+aside blockquote {
+    font-size: 0.95em;
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(222, 128, 60);
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    quotes: open-quote=201C, close-quote=201D;
+}
 
 /* Navigation Styles */	
 
