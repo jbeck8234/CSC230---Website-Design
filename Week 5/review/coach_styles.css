@@ -121,7 +121,12 @@ nav > ul > li a:hover, nav > ul > li a:active {
 
 /* Paragraph Styles */
 
-
+p {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
 
 /* List Styles */
 
