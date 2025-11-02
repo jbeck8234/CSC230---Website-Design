@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Stylesheet for index.html
+
+Author: Jonathon Beck
+Date: 2025|11|01
+Course: CSC230 - Website Design
+*/
+
+html {
+    background-color: hsl(80, 25%, 20%);
+}
+
