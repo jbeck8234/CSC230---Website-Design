@@ -15,12 +15,11 @@
 
 /* Window and Body Styles */
 
-
-
+html {
+    height: 100%;
+}
 
 /* Row Styles */
-
-
 
 
 
@@ -28,11 +27,7 @@
 
 
 
-
-
-
 /* Horizontal Navigation List Styles */
-
 
 
 
@@ -40,11 +35,7 @@
 
 
 
-
-
-
 /* HR Styles */
-
 
 
 
@@ -53,5 +44,4 @@
 
 
 /* Footer Styles */
-
 
