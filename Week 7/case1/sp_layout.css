@@ -61,7 +61,11 @@ aside {
 
 /* Horizontal Navigation List Styles */
 
-
+.horizontal-nav li {
+    display: block;
+    width: 12.5%;
+    float: left;
+}
 
 /* Topics Styles */
 
