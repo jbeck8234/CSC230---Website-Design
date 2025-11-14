@@ -43,6 +43,14 @@ body {
     width: 100%;
 }
 
+.horizontal-nav, footer {
+    grid-column: span 4;
+}
+
+aside {
+    grid-column: span 2;
+}
+
 /* Row Styles */
 
 
