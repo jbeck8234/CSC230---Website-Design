@@ -51,14 +51,6 @@ aside {
     grid-column: span 2;
 }
 
-/* Row Styles */
-
-
-
-/* Page Header Styles */
-
-
-
 /* Horizontal Navigation List Styles */
 
 .horizontal-nav li {
@@ -67,9 +59,12 @@ aside {
     float: left;
 }
 
-/* Topics Styles */
+/* Section Styles */
 
-
+section img {
+    width: 50%;
+    margin: 0 auto;
+}
 
 /* HR Styles */
 
