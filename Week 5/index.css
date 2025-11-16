@@ -8,6 +8,10 @@ Course: CSC230 - Website Design
 */
 
 html {
-    background-color: hsl(0, 3%, 16%);
+    background-color: hsl(46, 16%, 37%);
 }
 
+body {
+    color: hsl(80, 51%, 20%);
+    text-align: center;
+}
