@@ -46,8 +46,14 @@ aside {
 
 /* Map Styles */
 
-
-
+#battleMap {
+    width: 688px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
 
 /* Interactive Map Styles */
 
