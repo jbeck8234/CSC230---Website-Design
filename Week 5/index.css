@@ -12,6 +12,16 @@ html {
 }
 
 body {
-    color: hsl(80, 51%, 20%);
+    color: hsl(79, 51%, 18%);
     text-align: center;
+}
+
+article {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(45, 28%, 17%);
+    padding: 20px;
+    border: 5px solid hsl(46, 16%, 25%);
+    box-shadow: 10px 10px 5px hsl(46, 16%, 20%);
 }
