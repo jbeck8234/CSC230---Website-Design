@@ -29,7 +29,7 @@ section#bio {
     border: 5px solid hsl(46, 22%, 19%);
     border-radius: 15px;
     width: 250px;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-left: 100px;
     padding: 10px;
     text-align: center;
@@ -54,16 +54,34 @@ section#assignments {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
     background-color: hsl(35, 84%, 33%);
     color: black;
-    text-align: center;
     padding: 20px;
     border: 5px solid hsl(46, 16%, 25%);
     box-shadow: 10px 10px 5px rgb(21, 21, 21);
 }
 
+section#assignments h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+section#assignments h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
 section#assignments a:hover {
     color: hsl(332, 94%, 18%);
+}
+
+div#list > ol {
+    text-align: left;
+}
+
+div#list > ol > ul {
+    font-weight: normal;
 }
 
 footer {
