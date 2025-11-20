@@ -48,3 +48,7 @@ figure#figure1 {
 figure#figure2 {
     filter: grayscale(1);
 }
+
+figure#figure3 {
+    filter: saturate(1.5) contrast(1.2);
+}
