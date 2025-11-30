@@ -179,6 +179,10 @@ a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
         float: left;
         width: 20%;
     }
+
+    ul.submenu {
+        width: 200%;
+    }
 }
 
 /* ==============
