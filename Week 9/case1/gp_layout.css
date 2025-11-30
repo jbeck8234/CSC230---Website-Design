@@ -69,4 +69,20 @@ body > footer {
     nav.horizontal ul li {
         flex: 1 1 auto;
     }
+
+    img.panel size1 {
+        width: 100%;
+    }
+
+    img.panel size2 {
+        width: 60%;
+    }
+
+    img.panel size3 {
+        width: 40%;
+    }
+
+    img.panel size4 {
+        width: 30%;
+    }
 }
