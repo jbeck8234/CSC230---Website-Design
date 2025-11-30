@@ -43,5 +43,10 @@ table.schedule thead {
     color: white;
 }
 
+table.schedule tfoot {
+    background: black;
+    color: white;
+}
+
 /* Column Group Styles */
 
