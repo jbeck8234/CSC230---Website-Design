@@ -43,6 +43,10 @@ table.schedule thead {
     color: white;
 }
 
+table.schedule thead tr {
+    height: 30px;
+}
+
 table.schedule tfoot {
     background: black;
     color: white;
