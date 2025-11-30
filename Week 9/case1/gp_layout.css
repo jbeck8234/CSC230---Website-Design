@@ -16,22 +16,21 @@
 
 */
 
-
 /* Import Basic Design Styles Used on All Screens */
 
 @import url("gp_designs.css");
 
 /* Flex Layout Styles */
 
-
-
-
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
 
 /* ============================================
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
-
 
 
 
