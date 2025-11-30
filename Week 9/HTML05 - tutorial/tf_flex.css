@@ -21,8 +21,10 @@
    ================
 */
 
-
-
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
 
 /* =========================
    Mobile Styles: 0 to 480px 
