@@ -164,6 +164,10 @@ a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
        font-size: 1.5em;
        line-height: 2.2em;
    }
+
+   aside {
+       display: none;
+   }
 }
 
 /* ==============
