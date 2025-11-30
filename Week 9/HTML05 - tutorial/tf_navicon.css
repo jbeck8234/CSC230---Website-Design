@@ -21,8 +21,9 @@
    ===========
 */
 
-
-
+a#navicon {
+    display: none;
+}
 
 /* ===============================
    Mobile Devices: 0 to 480px 
