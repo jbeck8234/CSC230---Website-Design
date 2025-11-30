@@ -200,4 +200,10 @@ a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
     position: relative;
     width: 100%;
    }
+
+   nav.horizontal::after {
+    clear: both;
+    content: "";
+    display: table;
+   }
 }
