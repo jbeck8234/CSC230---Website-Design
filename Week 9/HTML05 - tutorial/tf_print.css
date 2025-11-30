@@ -97,3 +97,8 @@ article:nth-of-type(n+2) {
 img, ol, ul {
     page-break-inside: avoid;  
 }
+
+p {
+    orphans: 3;
+    widows: 3;
+}
