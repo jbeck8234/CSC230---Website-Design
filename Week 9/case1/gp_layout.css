@@ -70,19 +70,19 @@ body > footer {
         flex: 1 1 auto;
     }
 
-    .size1 img {
+    img.size1 {
         width: 100%;
     }
 
-    .size2 img {
+    img.size2 {
         width: 60%;
     }
 
-    .size3 img {
+    img.size3 {
         width: 40%;
     }
 
-    .size4 img {
+    img.size4 {
         width: 30%;
     }
 }
