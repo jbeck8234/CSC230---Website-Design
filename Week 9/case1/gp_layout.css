@@ -70,19 +70,19 @@ body > footer {
         flex: 1 1 auto;
     }
 
-    img.panel size1 {
+    .size1 img {
         width: 100%;
     }
 
-    img.panel size2 {
+    .size2 img {
         width: 60%;
     }
 
-    img.panel size3 {
+    .size3 img {
         width: 40%;
     }
 
-    img.panel size4 {
+    .size4 img {
         width: 30%;
     }
 }
