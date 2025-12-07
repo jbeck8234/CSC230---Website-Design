@@ -44,6 +44,10 @@ col#firstCol {
     column-width: 24%;
 }
 
+col.dataCols {
+    column-width: 19%;
+}
+
 /* Table Header Styles */
 
 
