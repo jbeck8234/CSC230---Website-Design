@@ -35,17 +35,17 @@ th {
 td {
     color: white;
     font-size: 0.9em;
-    text-align: top;
+    vertical-align: top;
 }
 
 /* Column Styles */
 
 col#firstCol {
-    column-width: 24%;
+    width: 24%;
 }
 
 col.dataCols {
-    column-width: 19%;
+    width: 19%;
 }
 
 /* Table Header Styles */
@@ -56,4 +56,9 @@ thead tr {
 
 thead tr:first-of-type th:first-of-type {
     font-size: 2em;
+}
+
+th:not(:first-of-type) {
+    background-color: transparent;
+    color: black;
 }
