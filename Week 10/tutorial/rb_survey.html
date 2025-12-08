@@ -85,6 +85,18 @@
                     <input name="custEmail" id="mail" type="email" />
                 </div>
                 <div class="formRow">
+                    <label for="dish">What's your favorite dish?</label>
+                    <input name="favDish" id="dish" type="text" list="dishType" />
+                    <datalist id="dishType">
+                        <option value="Anitpasto Pizza">
+                        <option value="Big Kahuna Pizza">
+                        <option value="BBQ Chicken Pizza">
+                        <option value="Mediterranean Herb Pizza">
+                        <option value="Pasta Rolls">
+                        <option value="Pasto Artichoke Pizza">
+                    </datalist>
+                </div>
+                <div class="formRow">
                     <label for="dineSpin">How mny times do you dine out per month?</label>
                     <input name="dineOut" id="dineSpin" type="number" value="1" step="1" min="0" max="20" />
                 </div>
@@ -123,6 +135,7 @@
                 <fieldset class="optGroup">
                     <label for="fYes">Yes</label>
                     <input name="sFriend" id="fYes" value="yes" type="radio" />
+                    
                     <label for="fNo">No</label>
                     <input name="sFriend"id=fNo value="no" type="radio" />
                 </fieldset>
@@ -132,6 +145,7 @@
                 <fieldset class="optGroup">
                     <label for="cYes">Yes</label>
                     <input name="oCorrect id=cYes" value="yes" type="radio" />
+
                     <label for="cNo">No</label>
                     <input name="oCorrect id=cNo" value="no" type="radio" />
                 </fieldset>
