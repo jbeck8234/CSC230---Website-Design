@@ -83,9 +83,10 @@ tbody td {
 
 header {
     width: 100%;
-    margin: 0px;
+    margin: 30px 0px 0px 0px;
     height: 300px;
     position: relative;
+    padding-top: 20px;
     padding-right: 320px;
     box-sizing: border-box;
     background-color: palegreen;
@@ -102,7 +103,12 @@ header img {
     display: block;
 }
 
+.container {
+    display: flex;
+}
+
 nav {
+    flex: 1;
     float: left;
     background-color: palegreen;
     color: black;
@@ -121,6 +127,7 @@ nav ul {
 }
 
 section {
+    flex: 3;
     float: left;
     background-color: bisque;
     width: 75%;
