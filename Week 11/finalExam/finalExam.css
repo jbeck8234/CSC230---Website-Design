@@ -83,18 +83,27 @@ tbody td {
 
 header {
     width: 100%;
+    margin: 0px;
     height: 300px;
-    overflow: hidden;
+    position: relative;
+    padding-right: 320px;
+    box-sizing: border-box;
+    background-color: palegreen;
+    overflow: auto;
 }
 
 header img {
+    position: absolute;
+    top: 0;
+    right: 0;
     max-width: 300px;
     max-height: 300px;
     object-fit: contain;
-    object-position: right;
+    display: block;
 }
 
 nav {
+    float: left;
     background-color: palegreen;
     color: black;
     text-align: center;
@@ -102,15 +111,26 @@ nav {
     width: 25%;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 section {
+    float: left;
     background-color: bisque;
     width: 75%;
     padding: 15px;
+    box-sizing: border-box;
 }
 
 footer {
+    clear: both;
+    text-align: center;
     background-color: rgb(71, 255, 71);
     color: rgb(55, 55, 55);
 }
