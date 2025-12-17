@@ -10,3 +10,107 @@ Date: 2025|12|17
 Filename: finalExam.css
 */
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(22, 97%, 45%);
+    color: black;
+    font-size: 16pt;
+    width: 85%;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 36pt;
+    margin: 35px 0px 0px 0px;
+    padding: 15px 0px 0px 15px;
+    background-color: palegreen;
+}                           
+
+header h3 {
+    font-size: 24pt;
+    margin: 0px;
+    padding: 0px 0px 15px 15px;
+    background-color: palegreen;
+}
+
+h1 {
+    font: Arial, 22pt;
+    box-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+    background-color: rgb(4, 47, 202);
+}
+
+h3 {
+    font: Arial, 16pt;
+    box-align: left;
+    background-color: rgb(205, 175, 5);
+}
+
+p {
+    margin: 15px;
+    padding: 15px;
+}
+
+a {
+    color: hsl(9, 100%, 25%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(307, 100%, 15%);
+}
+
+table {
+    border: none;
+    padding: 2px 5px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+thead th {
+    background-color: rgb(250, 183, 100);
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody td {
+    background-color: transparent;
+    text-align: left;
+    vertical-align: top;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+header img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+    object-position: right;
+}
+
+nav {
+    background-color: palegreen;
+    color: black;
+    text-align: center;
+    vertical-align: top;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    background-color: bisque;
+    width: 75%;
+    padding: 15px;
+}
+
+footer {
+    background-color: rgb(71, 255, 71);
+    color: rgb(55, 55, 55);
+}
